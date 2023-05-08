@@ -1,4 +1,4 @@
-# Single Underwater Image Restoration Using Adaptive Attenuation-Curve Prior (AAP)
+# Single Underwater Image Restoration Using Adaptive Attenuation-Curve Prior (AACP)
 Experimental results and Matlab executable file for IEEE TCAS-I paper: **Single Underwater Image Restoration Using Adaptive Attenuation-Curve Prior.** [link](https://ieeexplore.ieee.org/abstract/document/8049307)
 
 We propose a novel underwater image restoration method based on a non-local prior, namely, adaptive attenuation-curve prior. This prior relies on the statistical distribution of pixel values. That is, all pixel values of a clear image can be partitioned into several hundred distinct clusters in RGB space (see Fig. 1 (b)), and the pixel values in each cluster will be distributed on a curve with a power function form after attenuated by water in varying degrees (see Fig. 1 (d)). Specifically, we can estimate the transmission for each pixel according to its distribution on the curves.
